@@ -1,0 +1,22 @@
+.Pokecard {
+  min-width: 23%;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  border: 1px solid rgb(69, 69, 69);
+  box-shadow: 2px 3px 10px #686d76;
+  margin: 10px;
+  text-align: center;
+  color: #373a40;
+}
+
+.Pokecard img {
+  transition: all ease 250ms;
+}
+
+.Pokecard:hover > img {
+  transform: scale(1.2) rotate(20deg);
+}
+
+.Pokecard-type {
+  text-transform: capitalize;
+}
